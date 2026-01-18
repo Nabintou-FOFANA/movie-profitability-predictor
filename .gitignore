@@ -1,0 +1,33 @@
+# Données volumineuses
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.ipynb_checkpoints/
+
+# Node
+node_modules/
+frontend/build/
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
