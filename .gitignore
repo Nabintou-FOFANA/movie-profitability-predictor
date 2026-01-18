@@ -3,6 +3,9 @@ data/raw/*.csv
 data/raw/*.json
 data/processed/*.csv
 
+# Outputs générés (visualisations)
+outputs/
+
 # Python
 __pycache__/
 *.py[cod]
