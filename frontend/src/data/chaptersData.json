@@ -193,43 +193,43 @@
           ]
         },
         {
-          "id": "chap3_05",
-          "type": "static",
-          "title": "Impact popularité",
-          "file": "chap3_05_popularity_impact.png",
-          "description": "Relation popularité-rentabilité",
-          "insights": [
-            "Corrélation positive forte (r = 0.65)",
-            "Score popularité prédit bien le succès",
-            "Marketing et buzz pré-sortie cruciaux"
-          ]
-        },
-        {
-          "id": "chap3_06",
-          "type": "static",
-          "title": "Impact notes",
-          "file": "chap3_06_rating_impact.png",
-          "description": "Influence de la note moyenne",
-          "insights": [
-            "Notes > 7/10 = ROI significativement plus élevé",
-            "Qualité perçue compte plus que le budget",
-            "Bouche-à-oreille crucial pour longévité box-office"
-          ]
-        },
-        {
-          "id": "chap3_07",
-          "type": "static",
-          "title": "Matrice de corrélation",
-          "file": "chap3_07_correlation_matrix.png",
-          "description": "Corrélations entre variables clés",
-          "insights": [
-            "Budget ↔ Revenue : +0.72 (forte corrélation)",
-            "Popularité ↔ Revenue : +0.65",
-            "Vote count ↔ Revenue : +0.58"
-          ]
-        }
-      ],
-      "summary": "Le succès d'un film dépend d'un équilibre subtil entre genre stratégique, timing de sortie, budget raisonnable, et qualité perçue. L'horreur et l'animation offrent les meilleurs ROI, tandis que le timing (été/fêtes) maximise les revenus."
+  "id": "chap3_05",
+  "type": "static",
+  "title": "Impact popularité",
+  "file": "chap3_05_popularity_impact.png",
+  "description": "Relation popularité-rentabilité",
+  "insights": [
+    "ROI maximal pour les films à très faible popularité (anomalies à petit budget)",
+    "Effondrement du ROI moyen dès que le film atteint une popularité standard",
+    "La popularité élevée garantit des revenus bruts mais stabilise le ROI à des niveaux bas"
+  ]
+},
+{
+  "id": "chap3_06",
+  "type": "static",
+  "title": "Impact notes",
+  "file": "chap3_06_rating_impact.png",
+  "description": "Influence de la note moyenne",
+  "insights": [
+    "Pic de rentabilité exceptionnel (ROI 1546.90) pour les notes entre 7 et 8",
+    "Seule la tranche de note < 4 affiche un ROI moyen négatif (-0.13)",
+    "Chute brutale du ROI pour les \"chefs-d'œuvre\" (> 8/10) due aux budgets de prestige"
+  ]
+},
+{
+  "id": "chap3_07",
+  "type": "static",
+  "title": "Matrice de corrélation",
+  "file": "chap3_07_correlation_matrix.png",
+  "description": "Corrélations entre variables clés",
+  "insights": [
+    "Budget ↔ Revenue : +0.69 (corrélation forte mais pas totale)",
+    "Vote count ↔ Revenue : +0.74 (indicateur de succès le plus fiable)",
+    "ROI ↔ Budget/Revenue : ~0.00 (la rentabilité ne se prédit pas linéairement)"
+  ]
+}
+],
+"summary": "Le succès dépend d'un équilibre entre genre et budget : le Drama et l'Horreur dominent le ROI grâce à des coûts maîtrisés. La rentabilité maximale se situe dans le consensus public (note 7-8) et les sorties estivales, tandis que la matrice de corrélation prouve que le ROI est une variable complexe nécessitant une analyse par IA."
     },
     {
       "id": "chapter4",
