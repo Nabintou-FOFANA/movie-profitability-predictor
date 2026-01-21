@@ -76,9 +76,8 @@
           "file": "chap2_00_market_concentration.png",
           "description": "Analyse de la concentration des revenus et de la production dans l'industrie",
           "insights": [
-            "Top 10% des films génèrent 60% des revenus totaux",
-            "Concentration croissante depuis 2000",
-            "Marché de plus en plus polarisé"
+            "Dominance des Blockbusters : Le marché est régi par une élite ; seulement 5 % des films captent près de 40 % des revenus mondiaux.",
+            "Barrière à l'entrée : Cette concentration suggère que pour générer des revenus massifs, un investisseur doit impérativement entrer dans ce club fermé, souvent réservé aux franchises à gros budget."
           ]
         },
         {
@@ -88,9 +87,8 @@
           "file": "chap2_01_profitability.png",
           "description": "Proportion de films rentables vs non rentables",
           "insights": [
-            "64.7% des films sont rentables",
-            "35.3% perdent de l'argent",
-            "Taux stable depuis 20 ans malgré hausse budgets"
+            "Volume commercial sain : Près de 65 % des films parviennent à rembourser techniquement leur coût de production.",
+            "Succès de façade : Ce taux encourageant ne prend pas en compte les frais marketing, qui réduisent drastiquement le profit net réel."
           ]
         },
         {
@@ -100,9 +98,8 @@
           "file": "chap2_02_roi_distribution.png",
           "description": "Répartition du Return on Investment (valeurs limitées pour lisibilité)",
           "insights": [
-            "ROI médian : 0.73 (73% de retour)",
-            "Distribution asymétrique avec longs outliers",
-            "Quelques blockbusters exceptionnels tirent la moyenne"
+            "Le mirage de la moyenne : Un ROI moyen de 381 masque une réalité médiane beaucoup plus modeste située à 0.73.",
+            "Économie de loterie : L'industrie dépend de quelques succès exceptionnels pour compenser les performances médiocres de la majorité."
           ]
         },
         {
@@ -119,9 +116,8 @@
             "Ligne de seuil de rentabilité"
           ],
           "insights": [
-            "Corrélation forte : R² = 0.72",
-            "Zone rentable au-dessus de la diagonale",
-            "Outliers visibles (films exceptionnels > 1 milliard)"
+            "Géographie du profit : Atteindre le seuil de profit réel de 2,5x le budget est une exception statistique pour la grande masse des films.",
+            "Efficience des petits budgets : Les records absolus de rentabilité (ROI > 100) sont quasi exclusivement l'œuvre de films à très petit budget."
           ]
         },
         {
@@ -131,9 +127,8 @@
           "file": "chap2_04_median_budget_roi.png",
           "description": "Rentabilité moyenne par catégorie de budget",
           "insights": [
-            "Petits budgets (<10M) = ROI le plus élevé",
-            "Rendements décroissants avec budget croissant",
-            "Blockbusters (>100M) = plus risqués, ROI plus faible"
+            "Stabilité industrielle : Les Blockbusters offrent le ROI médian le plus stable, sécurisé par leur force de frappe marketing.",
+            "Risque des petites mises : Si les petits budgets peuvent exploser, leur performance typique reste plus incertaine que celle des grands studios."
           ]
         }
       ],
@@ -155,9 +150,9 @@
           "file": "chap3_01_roi_by_genre.png",
           "description": "Rentabilité moyenne selon le genre",
           "insights": [
-            "Horreur = ROI le plus élevé (faible coût, public fidèle)",
-            "Animation très rentable (marché familial)",
-            "Drama moins rentable mais volume élevé"
+            "Sacre de l'Horreur : Ce genre affiche le ROI médian le plus robuste (1.53), ce qui en fait le placement le plus sûr pour un investisseur.",
+            "Efficience du Documentaire : Avec un ROI de 1.81, c'est le leader de l'efficacité grâce à des coûts de production extrêmement bas.",
+            "Dangerosité du Drame : Malgré son prestige, le Drame souffre d'un rendement médian faible de 0.33, indiquant un risque de perte élevé."
           ]
         },
         {
@@ -167,9 +162,9 @@
           "file": "chap3_02_budget_revenue_by_genre.png",
           "description": "Comparaison financière par genre",
           "insights": [
-            "Animation = budgets les plus élevés (>80M en moyenne)",
-            "Action génère le plus de revenus bruts",
-            "Documentaires = petits budgets, marché de niche"
+            "Puissance de frappe : L'Action et l'Aventure dominent les revenus totaux mais exigent des investissements initiaux massifs.",
+            "Agilité financière : Le Documentaire et l'Horreur minimisent l'exposition au risque grâce à des structures de coûts très légères.",
+            "Arbitrage Revenu vs Profit : Les genres qui génèrent le plus de cash (Aventure) ne sont pas forcément ceux qui offrent le meilleur rendement par dollar investi."
           ]
         },
         {
@@ -179,9 +174,9 @@
           "file": "chap3_03_volume_by_genre.png",
           "description": "Nombre de films produits par genre",
           "insights": [
-            "Drama domine (22.5% de la production)",
-            "Comedy en 2e position (21.8%)",
-            "Action en forte croissance depuis 2010"
+            "Saturation de l'offre : Le Drame et la Comédie représentent 45 % de la production, créant une concurrence féroce pour capter l'audience.",
+            "Océans bleus : L'Animation et la Fantasy sont des niches sous-exploitées offrant de meilleures opportunités de différenciation.",
+            "Déséquilibre stratégique : L'industrie produit massivement des genres à faible ROI médian (Drame), suggérant une motivation artistique plus que financière."
           ]
         },
         {
@@ -191,9 +186,9 @@
           "file": "chap3_04_seasonality.png",
           "description": "Impact de la saison de sortie",
           "insights": [
-            "Été (juin-août) = période la plus lucrative",
-            "Décembre = mois des blockbusters et films familiaux",
-            "Janvier-Février = période creuse, moins de concurrence"
+            "L'effet Summer Blockbuster : L'été est la seule période de l'année où le film médian parvient à doubler son investissement initial.",
+            "Encombrement automnal : Le surplus de sorties en fin d'année sature le marché et divise par deux la rentabilité médiane des films.",
+            "Optimisation du timing : La date de sortie est un levier financier aussi puissant que le genre lui-même pour maximiser les chances de succès."
           ]
         },
         {
