@@ -1,0 +1,388 @@
+{
+  "chapters": [
+    {
+      "id": "chapter1",
+      "number": "01",
+      "title": "Contexte du Marché",
+      "subtitle": "Évolution de l'industrie cinématographique (1980-2023)",
+      "icon": "📊",
+      "color": "from-blue-600 to-cyan-600",
+      "description": "Analyse de l'évolution de la production, des budgets et de la diversité du marché mondial du cinéma.",
+      "visualizations": [
+        {
+          "id": "chap1_01",
+          "type": "static",
+          "title": "Évolution de la production",
+          "file": "chap1_01_production_evolution.png",
+          "description": "Nombre de films produits par année (1980-2023)",
+          "insights": [
+            "Croissance exponentielle après 2000",
+            "Pic de production en 2017 avec 450+ films",
+            "Impact visible du streaming sur la production"
+          ]
+        },
+        {
+          "id": "chap1_02",
+          "type": "static",
+          "title": "Évolution financière",
+          "file": "chap1_02_financial_evolution.png",
+          "description": "Budget et revenus moyens ajustés inflation 2024",
+          "insights": [
+            "Budgets moyens × 3 depuis 1980",
+            "Revenus suivent la tendance",
+            "Gap croissant entre blockbusters et petits films"
+          ]
+        },
+        {
+          "id": "chap1_03",
+          "type": "static",
+          "title": "Diversité linguistique",
+          "file": "chap1_03_language_diversity.png",
+          "description": "Top 15 langues par volume de production",
+          "insights": [
+            "Domination de l'anglais (55%)",
+            "Montée du cinéma indien et asiatique",
+            "Diversification croissante après 2010"
+          ]
+        },
+        {
+          "id": "chap1_04",
+          "type": "static",
+          "title": "Durée des films",
+          "file": "chap1_04_runtime_evolution.png",
+          "description": "Évolution de la durée moyenne par décennie",
+          "insights": [
+            "Durée moyenne stable autour de 105 min",
+            "Blockbusters de plus en plus longs (>2h30)",
+            "Séries et films courts en hausse avec streaming"
+          ]
+        }
+      ],
+      "summary": "Le marché cinématographique a connu une croissance explosive après 2000, portée par la digitalisation et le streaming. Les budgets ont triplé en 40 ans, mais la rentabilité reste un défi majeur."
+    },
+    {
+      "id": "chapter2",
+      "number": "02",
+      "title": "Analyse de la Rentabilité",
+      "subtitle": "Patterns de succès et d'échec au box-office",
+      "icon": "💰",
+      "color": "from-red-600 to-amber-600",
+      "description": "Étude approfondie des facteurs de rentabilité et des risques financiers dans l'industrie cinématographique.",
+      "visualizations": [
+        {
+          "id": "chap2_00",
+          "type": "static",
+          "title": "Concentration du marché",
+          "file": "chap2_00_market_concentration.png",
+          "description": "Analyse de la concentration des revenus et de la production dans l'industrie",
+          "insights": [
+            "Top 10% des films génèrent 60% des revenus totaux",
+            "Concentration croissante depuis 2000",
+            "Marché de plus en plus polarisé"
+          ]
+        },
+        {
+          "id": "chap2_01",
+          "type": "static",
+          "title": "Taux de rentabilité",
+          "file": "chap2_01_profitability.png",
+          "description": "Proportion de films rentables vs non rentables",
+          "insights": [
+            "64.7% des films sont rentables",
+            "35.3% perdent de l'argent",
+            "Taux stable depuis 20 ans malgré hausse budgets"
+          ]
+        },
+        {
+          "id": "chap2_02",
+          "type": "static",
+          "title": "Distribution du ROI ",
+          "file": "chap2_02_roi_distribution.png",
+          "description": "Répartition du Return on Investment (valeurs limitées pour lisibilité)",
+          "insights": [
+            "ROI médian : 0.73 (73% de retour)",
+            "Distribution asymétrique avec longs outliers",
+            "Quelques blockbusters exceptionnels tirent la moyenne"
+          ]
+        },
+        {
+          "id": "chap2_scatter",
+          "type": "interactive",
+          "title": "Scatter Budget vs Revenue",
+          "file": "synthèse_interactive_budget_revenue.html",
+          "description": "Exploration interactive de la relation budget-revenus avec filtres par genre et décennie",
+          "height": "800px",
+          "features": [
+            "Zoom et pan",
+            "Filtrage par genre",
+            "Hover pour détails complets",
+            "Ligne de seuil de rentabilité"
+          ],
+          "insights": [
+            "Corrélation forte : R² = 0.72",
+            "Zone rentable au-dessus de la diagonale",
+            "Outliers visibles (films exceptionnels > 1 milliard)"
+          ]
+        },
+        {
+          "id": "chap2_04",
+          "type": "static",
+          "title": "ROI Médian par Catégorie de Budget",
+          "file": "chap2_04_median_budget_roi.png",
+          "description": "Rentabilité moyenne par catégorie de budget",
+          "insights": [
+            "Petits budgets (<10M) = ROI le plus élevé",
+            "Rendements décroissants avec budget croissant",
+            "Blockbusters (>100M) = plus risqués, ROI plus faible"
+          ]
+        }
+      ],
+      "summary": "La rentabilité diminue avec l'augmentation des budgets. Les petites productions (<10M) offrent les meilleurs ROI moyens, tandis que les blockbusters sont plus risqués mais peuvent générer des revenus exceptionnels."
+    },
+    {
+      "id": "chapter3",
+      "number": "03",
+      "title": "Facteurs de Succès",
+      "subtitle": "Ce qui rend un film rentable",
+      "icon": "🎯",
+      "color": "from-purple-600 to-pink-600",
+      "description": "Identification des variables clés qui influencent la performance commerciale d'un film.",
+      "visualizations": [
+        {
+          "id": "chap3_01",
+          "type": "static",
+          "title": "Efficacité commerciale par genre",
+          "file": "chap3_01_roi_by_genre.png",
+          "description": "Rentabilité moyenne selon le genre",
+          "insights": [
+            "Horreur = ROI le plus élevé (faible coût, public fidèle)",
+            "Animation très rentable (marché familial)",
+            "Drama moins rentable mais volume élevé"
+          ]
+        },
+        {
+          "id": "chap3_02",
+          "type": "static",
+          "title": "Budget/Revenue par genre",
+          "file": "chap3_02_budget_revenue_by_genre.png",
+          "description": "Comparaison financière par genre",
+          "insights": [
+            "Animation = budgets les plus élevés (>80M en moyenne)",
+            "Action génère le plus de revenus bruts",
+            "Documentaires = petits budgets, marché de niche"
+          ]
+        },
+        {
+          "id": "chap3_03",
+          "type": "static",
+          "title": "Volume par genre",
+          "file": "chap3_03_volume_by_genre.png",
+          "description": "Nombre de films produits par genre",
+          "insights": [
+            "Drama domine (22.5% de la production)",
+            "Comedy en 2e position (21.8%)",
+            "Action en forte croissance depuis 2010"
+          ]
+        },
+        {
+          "id": "chap3_04",
+          "type": "static",
+          "title": "Saisonnalité",
+          "file": "chap3_04_seasonality.png",
+          "description": "Impact de la saison de sortie",
+          "insights": [
+            "Été (juin-août) = période la plus lucrative",
+            "Décembre = mois des blockbusters et films familiaux",
+            "Janvier-Février = période creuse, moins de concurrence"
+          ]
+        },
+        {
+          "id": "chap3_05",
+          "type": "static",
+          "title": "Impact popularité",
+          "file": "chap3_05_popularity_impact.png",
+          "description": "Relation popularité-rentabilité",
+          "insights": [
+            "Corrélation positive forte (r = 0.65)",
+            "Score popularité prédit bien le succès",
+            "Marketing et buzz pré-sortie cruciaux"
+          ]
+        },
+        {
+          "id": "chap3_06",
+          "type": "static",
+          "title": "Impact notes",
+          "file": "chap3_06_rating_impact.png",
+          "description": "Influence de la note moyenne",
+          "insights": [
+            "Notes > 7/10 = ROI significativement plus élevé",
+            "Qualité perçue compte plus que le budget",
+            "Bouche-à-oreille crucial pour longévité box-office"
+          ]
+        },
+        {
+          "id": "chap3_07",
+          "type": "static",
+          "title": "Matrice de corrélation",
+          "file": "chap3_07_correlation_matrix.png",
+          "description": "Corrélations entre variables clés",
+          "insights": [
+            "Budget ↔ Revenue : +0.72 (forte corrélation)",
+            "Popularité ↔ Revenue : +0.65",
+            "Vote count ↔ Revenue : +0.58"
+          ]
+        }
+      ],
+      "summary": "Le succès d'un film dépend d'un équilibre subtil entre genre stratégique, timing de sortie, budget raisonnable, et qualité perçue. L'horreur et l'animation offrent les meilleurs ROI, tandis que le timing (été/fêtes) maximise les revenus."
+    },
+    {
+      "id": "chapter4",
+      "number": "04",
+      "title": "Pays Dominants",
+      "subtitle": "Géographie du marché mondial",
+      "icon": "🌍",
+      "color": "from-cyan-600 to-blue-600",
+      "description": "Analyse de la domination géographique de l'industrie cinématographique.",
+      "visualizations": [
+        {
+          "id": "chap4_01",
+          "type": "static",
+          "title": "Top pays producteurs",
+          "file": "chap4_01_top_pays_volume.png",
+          "description": "Volume de production par pays (nombre de films)",
+          "insights": [
+            "USA = 4,175 films (domination écrasante)",
+            "UK, France, Canada dans le top 5",
+            "Inde = 370 films (volume élevé, marché local)"
+          ]
+        },
+        {
+          "id": "chap4_02",
+          "type": "interactive",
+          "title": "4.2 - MATRICE RISQUE/RENTABILITÉ PAR PAYS (INTERACTIF)",
+          "file": "rix_matrix_par_pays.html",
+          "description": "Analyse interactive risque vs rendement par pays avec indicateurs clés",
+          "height": "800px",
+          "features": [
+            "Taille = Volume de films",
+            "Couleur = Gravité du risque (perte médiane si flop)",
+            "Hover pour détails complets par pays",
+            "Zoom et exploration dynamique"
+          ],
+          "insights": [
+            "Inde = Meilleur équilibre (ROI élevé + faible risque)",
+            "USA = Volume massif avec rentabilité stable",
+            "Belgique = Pays le plus risqué (40% rentables)"
+          ]
+        },
+        {
+          "id": "chap4_03",
+          "type": "static",
+          "title": "Risque investisseur par pays",
+          "file": "chap4_03_risque_par_pays_profit_rate.png",
+          "description": "Taux de rentabilité par pays avec ROI moyen",
+          "insights": [
+            "Inde = 87% de rentabilité (ROI moyen = 4.8)",
+            "USA = 73% de rentabilité (ROI = 73.0)",
+            "Belgique = pays le plus risqué (40% rentables, ROI = 0.3)"
+          ]
+        }
+      ],
+      "summary": "Les États-Unis dominent massivement le marché avec 54.7% de la production. Les grands studios (Disney, Warner, Universal) concentrent les succès commerciaux, mais des studios indépendants peuvent obtenir des ROI exceptionnels avec des productions ciblées."
+    },
+    {
+      "id": "chapter5",
+      "number": "05",
+      "title": "Portrait-Robot du Film Rentable",
+      "subtitle": "Caractéristiques communes aux succès",
+      "icon": "🎯",
+      "color": "from-amber-600 to-red-600",
+      "description": "Synthèse des caractéristiques optimales pour maximiser les chances de rentabilité : signaux pré-sortie et analyse des risques.",
+      "visualizations": [
+        {
+          "id": "chap5_01",
+          "type": "static",
+          "title": "Portrait-robot (pré-sortie) : profil moyen rentable vs non rentable",
+          "file": "chap5_01_radar_portrait_robot.png",
+          "description": "Radar chart comparant les caractéristiques moyennes des films rentables et non rentables",
+          "insights": [
+            "Films rentables = budgets plus élevés (normalisés)",
+            "Genre stable = facteur déterminant (Family, Fantasy, Horror)",
+            "Sortie été = avantage significatif pour la rentabilité"
+          ]
+        },
+        {
+          "id": "chap5_02_budget",
+          "type": "static",
+          "title": "Budget : rentable vs non rentable",
+          "file": "chap5_02_budget_comparison.png",
+          "description": "Boxplot comparant la distribution des budgets entre films rentables et non rentables (échelle logarithmique)",
+          "insights": [
+            "Budget médian rentable : ~40M$ vs ~25M$ (non rentable)",
+            "Distribution similaire mais décalée vers le haut",
+            "Outliers présents dans les deux catégories"
+          ]
+        },
+        {
+          "id": "chap5_02_season",
+          "type": "static",
+          "title": "Saison : % de films rentables",
+          "file": "chap5_02_season_profitability.png",
+          "description": "Taux de rentabilité par saison de sortie",
+          "insights": [
+            "Été = 70% de rentabilité (meilleure saison)",
+            "Hiver = 67% (période des fêtes favorable)",
+            "Automne = 58% (moins favorable, forte concurrence)"
+          ]
+        },
+        {
+          "id": "chap5_03",
+          "type": "static",
+          "title": "Catégorie de budget : % de films rentables",
+          "file": "chap5_03_budget_distribution.png",
+          "description": "Taux de rentabilité par catégorie de budget",
+          "insights": [
+            "Blockbusters (>100M) : 82% rentables (mais risque élevé)",
+            "Gros budgets (50-100M) : 67% rentables",
+            "Petits budgets (<10M) : 61% rentables (meilleur ratio risque/récompense)"
+          ]
+        },
+        {
+          "id": "chap5_04",
+          "type": "static",
+          "title": "Top 10 genres les plus stables (% rentables) (≥ 30 films/genre)",
+          "file": "chap5_04_genre_stability.png",
+          "description": "Genres offrant le meilleur taux de rentabilité avec volume suffisant",
+          "insights": [
+            "Family = 78% rentables (genre le plus stable)",
+            "Fantasy = 77% rentables",
+            "Horror = 75% rentables (excellent ROI, faible risque)"
+          ]
+        },
+        {
+          "id": "chap5_05",
+          "type": "static",
+          "title": "Gravité du risque : pertes financières des flops",
+          "file": "chap5_05_risk_severity.png",
+          "description": "Distribution des pertes financières par catégorie de budget (échelle logarithmique)",
+          "insights": [
+            "Blockbusters : pertes médianes ~20M$ (risque maximal)",
+            "Petits budgets : pertes médianes ~5M$ (risque limité)",
+            "Échelle logarithmique révèle la variabilité extrême"
+          ]
+        }
+      ],
+      "summary": "Le film rentable idéal : budget moyen (10-50M), genre stratégique (horreur/animation), sortie estivale ou fêtes, qualité élevée (note >7/10), et marketing efficace (popularité élevée). Les petits et moyens budgets offrent le meilleur équilibre risque/rendement."
+    }
+  ],
+  "globalStats": {
+    "totalFilms": 7632,
+    "averageROI": 381.25,
+    "profitableRate": 64.7,
+    "totalRevenue": "890,000M",
+    "period": "1980-2023",
+    "countries": 80,
+    "genres": 20,
+    "studios": 50
+  }
+}
