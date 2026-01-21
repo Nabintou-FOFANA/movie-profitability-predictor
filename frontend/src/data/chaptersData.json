@@ -1,65 +1,66 @@
 {
   "chapters": [
-    {
-      "id": "chapter1",
-      "number": "01",
-      "title": "Contexte du Marché",
-      "subtitle": "Évolution de l'industrie cinématographique (1980-2023)",
-      "icon": "📊",
-      "color": "from-blue-600 to-cyan-600",
-      "description": "Analyse de l'évolution de la production, des budgets et de la diversité du marché mondial du cinéma.",
-      "visualizations": [
-        {
-          "id": "chap1_01",
-          "type": "static",
-          "title": "Évolution de la production",
-          "file": "chap1_01_production_evolution.png",
-          "description": "Nombre de films produits par année (1980-2023)",
-          "insights": [
-            "Croissance exponentielle après 2000",
-            "Pic de production en 2017 avec 450+ films",
-            "Impact visible du streaming sur la production"
-          ]
-        },
-        {
-          "id": "chap1_02",
-          "type": "static",
-          "title": "Évolution financière",
-          "file": "chap1_02_financial_evolution.png",
-          "description": "Budget et revenus moyens ajustés inflation 2024",
-          "insights": [
-            "Budgets moyens × 3 depuis 1980",
-            "Revenus suivent la tendance",
-            "Gap croissant entre blockbusters et petits films"
-          ]
-        },
-        {
-          "id": "chap1_03",
-          "type": "static",
-          "title": "Diversité linguistique",
-          "file": "chap1_03_language_diversity.png",
-          "description": "Top 15 langues par volume de production",
-          "insights": [
-            "Domination de l'anglais (55%)",
-            "Montée du cinéma indien et asiatique",
-            "Diversification croissante après 2010"
-          ]
-        },
-        {
-          "id": "chap1_04",
-          "type": "static",
-          "title": "Durée des films",
-          "file": "chap1_04_runtime_evolution.png",
-          "description": "Évolution de la durée moyenne par décennie",
-          "insights": [
-            "Durée moyenne stable autour de 105 min",
-            "Blockbusters de plus en plus longs (>2h30)",
-            "Séries et films courts en hausse avec streaming"
-          ]
-        }
-      ],
-      "summary": "Le marché cinématographique a connu une croissance explosive après 2000, portée par la digitalisation et le streaming. Les budgets ont triplé en 40 ans, mais la rentabilité reste un défi majeur."
+  {
+    "id": "chapter1",
+    "number": "01",
+    "title": "Contexte du Marché",
+    "subtitle": "Évolution de l'industrie cinématographique (1980-2023)",
+    "icon": "📊",
+    "color": "from-blue-600 to-cyan-600",
+    "description": "Analyse de l'évolution de la production, des budgets et de la diversité du marché mondial du cinéma.",
+    "visualizations": [
+      {
+        "id": "chap1_01",
+        "type": "static",
+        "title": "Évolution de la production",
+        "file": "chap1_01_production_evolution.png",
+        "description": "Nombre de films produits par année (1980-2023)",
+        "insights": [
+          "Croissance continue jusqu'en 2016 (pic à ~300 films/an)",
+          "Accélération marquée par l'ère digitale dès 2000",
+          "Chute brutale post-2019 : retour aux volumes de production de 1995"
+        ]
+      },
+      {
+        "id": "chap1_02",
+        "type": "static",
+        "title": "Évolution financière",
+        "file": "chap1_02_financial_evolution.png",
+        "description": "Budget et revenus moyens ajustés inflation 2024",
+        "insights": [
+          "Budgets moyens stables (~40M$) grâce à l'ajustement à l'inflation",
+          "Volatilité extrême des revenus annuels face à des coûts fixes",
+          "Réduction de la marge de sécurité financière depuis 2010"
+        ]
+      },
+      {
+        "id": "chap1_03",
+        "type": "static",
+        "title": "Diversité linguistique",
+        "file": "chap1_03_language_diversity.png",
+        "description": "Top 15 langues par volume de production",
+        "insights": [
+          "Hégémonie massive de l'anglais (81% de la production)",
+          "Le Chinois (zh) : champion de la rentabilité moyenne ($178.7M)",
+          "Décalage fort entre volume de production et revenus pour les langues européennes"
+        ]
+      },
+      {
+        "id": "chap1_04",
+        "type": "static",
+        "title": "Durée des films",
+        "file": "chap1_04_runtime_evolution.png",
+        "description": "Évolution de la durée moyenne par décennie",
+        "insights": [
+          "Allongement progressif : la médiane tend vers les 110-120 min",
+          "Disparition du format court (90 min) au profit des fresques de 2h",
+          "Augmentation du risque d'exploitation lié à la durée des films"
+        ]
+      }
+    ],
+    "summary": "Le marché cinématographique a connu une maturation portée par la digitalisation, atteignant son apogée en 2016 avant une contraction historique post-2019. Si les budgets réels restent stables, la volatilité croissante des revenus et l'allongement des formats"
     },
+
     {
       "id": "chapter2",
       "number": "02",
