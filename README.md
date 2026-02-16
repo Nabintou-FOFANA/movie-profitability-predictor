@@ -6,6 +6,13 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688)
 ![XGBoost](https://img.shields.io/badge/XGBoost-2.1-orange)
 
+## Démo en ligne
+
+- **Site web** : [https://cinepredict.onrender.com](https://cinepredict.onrender.com)
+- **API** : [https://cinepredict-api.onrender.com](https://cinepredict-api.onrender.com)
+
+> *Note : Les services Render gratuits se mettent en veille après 15 minutes d'inactivité. Le premier chargement peut prendre ~30 secondes.*
+
 ## Description
 
 Projet de Data Science et Machine Learning analysant les données TMDB pour prédire la rentabilité d'un film au box-office. Le site permet de saisir les caractéristiques d'un film et d'obtenir une prédiction (Succès / Échec) grâce à un modèle XGBoost.
