@@ -8,7 +8,6 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
-    plan: free
 
   # Frontend - React Static Site
   - type: web
@@ -16,8 +15,3 @@ services:
     runtime: static
     buildCommand: cd frontend && npm install && npm run build
     staticPublishPath: frontend/build
-    headers:
-      - path: /*
-        name: Cache-Control
-        value: no-cache
-    plan: free
