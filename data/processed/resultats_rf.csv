@@ -1,0 +1,2 @@
+modele,n_estimators,max_depth,accuracy,precision_macro,recall_macro,f1_macro,temps_entrainement,n_features,pca
+Random Forest,100,20,0.36622739809990806,0.3710433693012454,0.3610114090296328,0.33705071150766513,1.099869966506958,325,Non (175 features originales)

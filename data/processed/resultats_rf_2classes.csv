@@ -1,0 +1,2 @@
+modele,n_estimators,max_depth,accuracy_test,precision_test,recall_test,f1_test,temps_entrainement,n_features,classes,pca
+Random Forest (2 classes),300,25,0.6654049962149886,0.6577498033044846,0.6505836575875487,0.6541471048513302,3.9029183387756348,325,"0=Mauvais (0-1), 1=Bon (3-4), classe 2 retirée",Non
