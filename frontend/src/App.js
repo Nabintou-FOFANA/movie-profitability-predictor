@@ -15,7 +15,7 @@ const Navbar = ({ currentPage, setCurrentPage }) => {
   const navItems = [
     { id: 'home', label: 'Accueil', icon: Film },
     { id: 'analysis', label: 'Analyse', icon: BarChart3 },
-    { id: 'model', label: 'Modèle ML', icon: Brain, disabled: true }
+    { id: 'model', label: 'Modèle ML', icon: Brain }
   ];
 
   return (
